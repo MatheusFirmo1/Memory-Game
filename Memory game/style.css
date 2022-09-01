@@ -1,0 +1,28 @@
+body {
+    background-color: darkcyan;
+    border: black;
+    margin: 5px;
+}
+
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+    width: 1500px;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+  }
+
+  .caixa-score {
+      border: 1px solid black;
+      margin: 5px;
+      padding: 5px;
+  }
